@@ -9,7 +9,7 @@ services:
   
   # The Cirrus signalling server
   signalling:
-    image: "ghcr.io/epicgames/pixel-streaming-signalling-server::4.27"
+    image: "ghcr.io/epicgames/pixel-streaming-signalling-server:4.27"
     network_mode: "host"
     command:
       - "--publicIp=${PUBLIC_IP}"
